@@ -1,0 +1,26 @@
+body{
+    background-image: url("./../images/alt-robot-wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.jumbotron{
+    background: none;
+    text-align: center;
+    font-family: "Share Tech";
+    color: black;
+    text-shadow: 2px 2px 8px #FF0000;
+}
+
+.row{
+    font-family: "Share Tech";
+    color: black;
+    text-shadow: 2px 2px 8px #FF0000;
+    margin-left: 1rem;
+    font-size: 20px;
+}
+
+#word{
+    font-size: 35px;
+}
