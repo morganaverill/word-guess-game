@@ -24,3 +24,7 @@ body{
 #word{
     font-size: 35px;
 }
+
+.counters{
+    background: none;
+}

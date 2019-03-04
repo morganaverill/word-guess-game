@@ -26,12 +26,12 @@
           
         <div class="row">
             <div class="col-6 lower-margin">
-                    <div class="sidebar"></div>
+                    <div class="counters"></div>
                         <div>Chances Remaining:
                             <span id="chances"></span>
                         </div>
                         <div>Incorrect Guesses:
-                            <span id="playerguesses"></span>
+                            <span id="badguesses"></span>
                         </div>
                         <div>Winning Games:
                             <span id="wingame"></span>
@@ -42,6 +42,25 @@
                     </div>
             </div>
         </div>
-        <script src="./assets/javascript/game.js"></script>
+                <!--Audio technique found on StackOverFlow-->
+                <div>
+                    <audio id="bender">
+                        <source src="./assets/audio/bender.mp3" type="audio/mp3">
+                    </audio>
+                    <audio id="rosie">
+                        <source src="./assets/audio/Jetsons.mp3" type="audio/mp3">
+                    </audio>
+                    <audio id="helper">
+                        <source src="./assets/audio/go_team_venture.mp3" type="audio/mp3">
+                    </audio>
+                    <audio id="voltron">
+                        <source src="./assets/audio/volt.mp3" type="audio/mp3">
+                    </audio>
+                    <audio id="dolores">
+                        <source src="./assets/audio/ww.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+
+    <script src="./assets/javascript/game.js"></script>
 </body>
 </html>
